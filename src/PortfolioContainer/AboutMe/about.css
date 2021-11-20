@@ -1,0 +1,94 @@
+.containerDiv{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    padding: 2% 10%;
+
+    /* grid-template-columns: 50% 50%; */
+    box-shadow: 0px 2px 8px 0px #0000001a;
+    grid-gap: 0%;
+}
+.pageHeading{
+    font-size: 50px;
+    font-weight: 600;
+}
+.containerDiv img{
+    width: 100%;
+    height: 100%;
+}
+.aboutmeTextDiv{
+    padding: 25px;
+    text-align: left;
+}
+.aboutme{
+    margin-left: 2%;
+
+}
+.aboutmeTextDiv ul{
+    /* margin-top: 15%; */
+    font-size: 20px;
+    font-weight: 600;
+}
+.aboutmeTextDiv li{
+    font-weight: normal;
+}
+.aboutBtnDiv{
+    margin-top:5% ;
+    display: flex;
+    justify-content: center;
+}
+.aboutBtnDiv .hireMeBtn{
+    color: #ffffff;
+    background-color: rgb(20, 20, 85);
+    border: none;
+    border-radius: 25px;
+    padding: 5px 15px;
+}
+.aboutBtnDiv button{
+    color: #ffffff;
+    background-color: orangered;
+    border: none;
+    border-radius: 25px;
+    padding: 5px 15px;
+}
+.aboutBtnDiv button:hover{
+    color: #ffffff;
+    background-color: #111146;
+    border: none;
+    border-radius: 25px;
+    padding: 5px 15px;
+}
+
+.colzs .colz-icons{
+    text-align: center;
+    align-items: center;
+}
+.colz-icons .social-media-icon{
+    color: #111146;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    margin: 0 !important;
+}
+.colz-icons ,.social-media-icon:hover{
+    transform: scale(1.5);
+
+}
+@media screen and (max-width:910px) {
+    .containerDiv{
+        width: 80%;
+        margin: auto;
+        padding: 2% 10%;
+        /* display: flex; */
+        /* flex-direction: column; */
+    }
+    .containerDiv img{
+        height: 400px;
+    }
+}
+@media screen and (max-width:810px) {
+    .containerDiv img{
+        width: 100%;
+        height: 300px;
+    }
+}

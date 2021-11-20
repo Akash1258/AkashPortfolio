@@ -1,0 +1,204 @@
+.profile-container{
+    text-align: center;
+    justify-content: center;
+    min-height: fit-content;
+    background-color: #757575;
+    /* background-image: url('https://images.designtrends.com/wp-content/uploads/2015/11/30165909/Cute-Gray-Plain-Background.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navBar-bg{
+   background-color: #757575;
+   border: none; 
+   /* padding: 10px 25px; */
+   /* padding:; */
+}
+.heading{
+    color: #ffffff;
+    font-weight: 600;
+
+}
+.toggle-btn{
+    background-color: #ffffff;
+    color: #ffffff;
+}
+.menu-bar{
+    position: absolute;
+    top: 0rem;
+    width: 300px;
+    text-align: center;
+    font-size: 20px;
+}
+.menu-content{
+   color: black;
+   padding: 7px 0px;
+   margin: 0px; 
+}
+.menu-content:hover{
+    color: #ffffff;
+    margin: 0px;
+    padding: 7px 0px;
+    border-radius: 10px;
+    background-color:orangered;
+    border: 1px solid green; 
+ }
+ .menubar-img{
+    margin-left: 80px;
+ }
+ .menubar-img img{
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+ }
+.profile-parent{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+.profile-details-name{
+    font-size: 56px;
+
+}
+.profile-details-role{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0px 24px 0px;
+}
+.profile-details-name h1{
+    font-size: 40px;
+
+}
+.primary-text{
+    color:#ffffff;
+}
+.highlighted-text{
+    color: orangered;
+}
+.profile-role-tagline{
+    font-size: 19px;
+    margin: 5px 0 0 0;
+}
+.profile-option{
+    justify-content: center;
+}
+.profile-option .btn-primary-btn{
+    background-color: darkslateblue;
+    padding: 7.5px 18px;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.profile-option .btn-primary-btn:hover{
+    background-color: #ffffff;
+    padding: 7.5px 18px;
+    color: black;
+}
+.profile-option .highlighted-btn{
+    margin: 0 0 0 28px;
+    background-color: orangered;
+    color: bisque;
+}
+.profile-option .highlighted-btn:hover{
+    /* padding: 6px 10px; */
+    margin: 0 0 0 28px;
+    background-color: #111146;
+    color: #ffffff;
+}
+.profile-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px #ffffff;
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+}
+.profile-picture-background{
+    height: 92%;
+    width: 92%;
+}
+.profile-picture-background img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+.profile-picture-background:hover{
+    transform:scale(1.07) ;
+    transition: 1s ease-out;
+}
+.colz .colz-icon{
+    color: white;
+    padding-left: 0px;
+}
+.social-media-icon{
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    margin-left: 3%;
+}
+.colz .colz-icon .social-media-icon:hover{
+    transform: scale(1.5);
+}
+@media screen and (max-width:1100px) {
+    .profile-picture{
+        margin: 0 0px 0 80px;
+    }
+    .profile-details-name{
+        font-size: 36px;
+    }
+    .profile-details-role .primary-text{
+        font-size: 12px
+    }
+    .profile-option{
+        justify-content: center;
+    }
+    .profile-option .btn{
+        width: 120px;
+        padding: 11px 0;
+        z-index: 700;
+    }   
+}
+@media screen and (max-width:910px) {
+    .profile-picture{
+        height: 320px;
+        width: 320px;
+        margin: 0 0 0 4px;
+    }
+    .btn .highlighted-btn{
+        margin-left: 40%;
+    }
+   
+}
+@media screen and (max-width:810px) {
+    .profile-picture{
+        margin: 0 !important;
+    }
+    .profile-parent{
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0;
+    }
+    .profile-option{
+        display: flex;
+        justify-content: center;
+    }
+    .profile-details{
+        margin: 25px 0 0;
+    }
+    .profile-details-name, .profile-details-role{
+        text-align: center;
+    }
+}
+@media screen and (max-width:375px) {
+    .profile-picture{
+        height: 275px;
+        width: 275px;
+        margin-top: -90px;
+    }
+    .profile-details{
+        width: 90%;
+    }
+}
