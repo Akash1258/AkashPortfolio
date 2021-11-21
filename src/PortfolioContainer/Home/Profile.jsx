@@ -13,7 +13,7 @@ export default function Profile() {
                 <div className="row ">
                     <div className="col-md-12">
 
-                        <Navbar className="navBar-bg" expand={false} fixed="top">
+                        <Navbar className="navBar-bg" expand={false} fixed="fixed">
                             <Container fluid>
                                 <Navbar.Brand ><h5 className="heading">Akash Kumar</h5></Navbar.Brand>
                                 <Navbar.Toggle className="toggle-btn" aria-controls="offcanvasNavbar"
@@ -33,11 +33,11 @@ export default function Profile() {
                                     </Offcanvas.Header>
                                     <Offcanvas.Body>
                                         <Nav>
-                                            <Link to="home"><Nav.Link ><p className="menu-content">HOME</p></Nav.Link></Link>
-                                            <Link to="about"><Nav.Link> <p className="menu-content">ABOUT</p></Nav.Link></Link>
-                                           <Link to="resume"><Nav.Link ><p className="menu-content">RESUME</p></Nav.Link></Link>
-                                            <Link to="project"><Nav.Link ><p className="menu-content">PROJECTS</p></Nav.Link></Link>
-                                            <Link to="contact"><Nav.Link ><p className="menu-content">CONTACT</p></Nav.Link></Link>
+                                            <Link to="home" ><Nav.Link ><p className="menu-content">HOME</p></Nav.Link></Link>
+                                            <Link to="about" ><Nav.Link> <p className="menu-content">ABOUT</p></Nav.Link></Link>
+                                           <Link to="resume" ><Nav.Link ><p className="menu-content">RESUME</p></Nav.Link></Link>
+                                            <Link to="project" ><Nav.Link ><p className="menu-content">PROJECTS</p></Nav.Link></Link>
+                                            <Link to="contact" ><Nav.Link ><p className="menu-content">CONTACT</p></Nav.Link></Link>
                                         </Nav>
                                     </Offcanvas.Body>
                                 </Navbar.Offcanvas>

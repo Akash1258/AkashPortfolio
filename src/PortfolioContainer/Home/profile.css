@@ -23,7 +23,7 @@
     color: #ffffff;
 }
 .menu-bar{
-    position: absolute;
+    /* position: absolute; */
     top: 0rem;
     width: 300px;
     text-align: center;
@@ -171,6 +171,11 @@
     .btn .highlighted-btn{
         margin-left: 40%;
     }
+    .navBar-bg{
+        background-color: #757575;
+        border: none; 
+        padding: 0px !important;
+     }
    
 }
 @media screen and (max-width:810px) {
@@ -191,6 +196,11 @@
     .profile-details-name, .profile-details-role{
         text-align: center;
     }
+    .navBar-bg{
+        background-color: #757575;
+        border: none; 
+        padding: 0px !important;
+     }
 }
 @media screen and (max-width:375px) {
     .profile-picture{
@@ -201,4 +211,9 @@
     .profile-details{
         width: 90%;
     }
+    .navBar-bg{
+        background-color: #757575;
+        border: none; 
+        padding: 0px !important;
+     }
 }
