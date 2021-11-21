@@ -2,6 +2,7 @@ import React from 'react'
 import Typical from 'react-typical'
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 import { Navbar, Container, Offcanvas, Nav } from 'react-bootstrap';
+import {Link} from 'react-scroll'
 
 import './profile.css'
 
@@ -32,11 +33,11 @@ export default function Profile() {
                                     </Offcanvas.Header>
                                     <Offcanvas.Body>
                                         <Nav>
-                                            <Nav.Link href="#home"><p className="menu-content">HOME</p></Nav.Link>
-                                            <Nav.Link href="#about"><p className="menu-content">ABOUT</p></Nav.Link>
-                                            <Nav.Link href="#resume"><p className="menu-content">RESUME</p></Nav.Link>
-                                            <Nav.Link href="#project"><p className="menu-content">PROJECTS</p></Nav.Link>
-                                            <Nav.Link href="#contact"><p className="menu-content">CONTACT</p></Nav.Link>
+                                            <Link to="home"><Nav.Link ><p className="menu-content">HOME</p></Nav.Link></Link>
+                                            <Link to="about"><Nav.Link> <p className="menu-content">ABOUT</p></Nav.Link></Link>
+                                           <Link to="resume"><Nav.Link ><p className="menu-content">RESUME</p></Nav.Link></Link>
+                                            <Link to="project"><Nav.Link ><p className="menu-content">PROJECTS</p></Nav.Link></Link>
+                                            <Link to="contact"><Nav.Link ><p className="menu-content">CONTACT</p></Nav.Link></Link>
                                         </Nav>
                                     </Offcanvas.Body>
                                 </Navbar.Offcanvas>
@@ -44,7 +45,7 @@ export default function Profile() {
                         </Navbar>
                     </div>
                 </div>
-                <div className="row p-1">
+                <div className="row p-5">
                     <div className="profile-parent col-md-12 mt-5 mb-5 p-5 ">
                         <div className="profile-details">
                             <div className="colz">
@@ -85,7 +86,7 @@ export default function Profile() {
                                 </a>
                             </div>
                         </div>
-                        <div className="profile-picture">
+                        <div className="profile-picture" >
                             <div className="profile-picture-background">
                                 <img src=".././akash.png" alt="profile" />
                             </div>

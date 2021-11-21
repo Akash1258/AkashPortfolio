@@ -10,7 +10,7 @@
 .navBar-bg{
    background-color: #757575;
    border: none; 
-   /* padding: 10px 25px; */
+   padding: 10px 25px;
    /* padding:; */
 }
 .heading{
@@ -90,7 +90,7 @@
 }
 .profile-option .btn-primary-btn:hover{
     background-color: #ffffff;
-    padding: 7.5px 18px;
+    /* padding: 7.5px 18px; */
     color: black;
 }
 .profile-option .highlighted-btn{
@@ -100,7 +100,7 @@
 }
 .profile-option .highlighted-btn:hover{
     /* padding: 6px 10px; */
-    margin: 0 0 0 28px;
+    /* margin: 0 0 0 28px; */
     background-color: #111146;
     color: #ffffff;
 }
@@ -112,7 +112,7 @@
     border-radius: 50%;
     height: 380px;
     width: 380px;
-    margin: 0 0px 0 100px;
+    margin: 0 0px 0 200px;
 }
 .profile-picture-background{
     height: 92%;

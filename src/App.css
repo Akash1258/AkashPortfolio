@@ -24,3 +24,24 @@ html{
 #contact{
   height: auto;
 }
+
+@media screen and (max-width:910px) {
+  html{
+    scroll-behavior: smooth;
+  }
+  #home{
+    height: auto;
+  }
+  #about{
+    height: auto;
+  }
+  #resume{
+    height: auto;
+  }
+  #project{
+    height: auto;
+  }
+  #contact{
+    height: auto;
+  }
+}
