@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
 export default function AboutMe() {
     return (
-        <div className='mainDiv' id="about">
+        <div className='mainDiv' id="about" >
             <h2 className="pageHeading">About Me</h2>
             <div className='containerDiv'>
 
@@ -29,7 +29,7 @@ export default function AboutMe() {
                     <div className='aboutBtnDiv'>
                         {/* <button className='hireMeBtn'>Hire Me</button> */}
                         <a href="resume.pdf" download='resume.pdf'>
-                            <button className="btn highlighted-btn">Get Resume</button>
+                            <button className="getBtn">Get Resume</button>
                         </a>
                     </div>
                 </div>

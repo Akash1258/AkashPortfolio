@@ -7,13 +7,13 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-.navBar-bg{
+ .myNav{
    background-color: #757575;
    border: none; 
-   padding: 10px 25px;
-   /* padding:; */
+   color: #ffffff;
+   font-size: 14.5px;
 }
-.heading{
+/*.heading{
     color: #ffffff;
     font-weight: 600;
 
@@ -23,33 +23,33 @@
     color: #ffffff;
 }
 .menu-bar{
-    /* position: absolute; */
     top: 0rem;
     width: 300px;
     text-align: center;
     font-size: 20px;
 }
-.menu-content{
-   color: black;
-   padding: 7px 0px;
-   margin: 0px; 
-}
+*/
+ .menu-content{
+   color: #ffffff;
+   padding: 7px 7px;
+   font-size: 14.5px;
+   margin: 0px;
+   box-shadow: 0 1px 1px 1px #ffffff;
+} 
 .menu-content:hover{
     color: #ffffff;
     margin: 0px;
-    padding: 7px 0px;
-    border-radius: 10px;
-    background-color:orangered;
-    border: 1px solid green; 
+    padding: 7px 7px;
+    background-color:#111146;
  }
- .menubar-img{
+ /* .menubar-img{
     margin-left: 80px;
  }
  .menubar-img img{
      width: 100px;
      height: 100px;
      border-radius: 50%;
- }
+ }  */
 .profile-parent{
     display: flex;
     align-items: center;
@@ -81,26 +81,27 @@
 .profile-option{
     justify-content: center;
 }
-.profile-option .btn-primary-btn{
+/* .profile-option .btn-primary-btn{
     background-color: darkslateblue;
     padding: 7.5px 18px;
     border: none;
     color: #ffffff;
     border-radius: 5px;
-}
-.profile-option .btn-primary-btn:hover{
+} */
+/* .profile-option .btn-primary-btn:hover{
     background-color: #ffffff;
-    /* padding: 7.5px 18px; */
+    padding: 7.5px 18px;
     color: black;
-}
-.profile-option .highlighted-btn{
+} */
+ .getResumeBtn{
+    padding: 10px 15px;
     margin: 0 0 0 28px;
     background-color: orangered;
     color: bisque;
 }
-.profile-option .highlighted-btn:hover{
-    /* padding: 6px 10px; */
-    /* margin: 0 0 0 28px; */
+.profile-option .getResumeBtn:hover{
+    /* padding: 10px px; */
+    margin: 0 0 0 28px;
     background-color: #111146;
     color: #ffffff;
 }
@@ -168,9 +169,9 @@
         width: 320px;
         margin: 0 0 0 4px;
     }
-    .btn .highlighted-btn{
+    /* .btn .highlighted-btn{
         margin-left: 40%;
-    }
+    } */
     .navBar-bg{
         background-color: #757575;
         border: none; 

@@ -77,7 +77,7 @@ textarea{
     padding-left:10px ;
 
 }
-button{
+.submitBtn{
     border: none;
     padding: 15px;
     background-color: orangered;
@@ -86,7 +86,7 @@ button{
     border-radius: 25px;
     cursor: pointer;
 }
-button:hover{
+.submitBtn:hover{
     border: none;
     padding: 15px;
     background-color: #111146;
@@ -106,5 +106,8 @@ button:hover{
         padding: 30px;
         display: flex;
         flex-direction: column;
+    }
+    .c-info-item{
+        width: 70%;
     }
 }

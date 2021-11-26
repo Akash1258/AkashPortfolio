@@ -20,26 +20,18 @@
     text-align: left;
 }
 .projectDetail a{
-    width: 100px;
-    padding: 3px 3px;
-    margin: 4px 4px;
-    background-color: #346be4;
-    color: #fff;
-    border-radius: 7px;
-    text-decoration:none; 
     cursor:pointer;
+    background-color: #111146;
+    width: 33px;
+
 }
 .projectDetail a:hover{
-    width: 100px;
-    padding: 3px 3px;
-    margin: 4px 4px;
-    background-color: #111146;
-    color: #fff;
-    border-radius: 7px;
-    text-decoration:none; 
     cursor:pointer;
 }
-
+.links{
+    display: flex;
+    column-gap: 5%;
+}
 .langDiv{
     text-align: center;
 

@@ -44,14 +44,14 @@
     border-radius: 25px;
     padding: 5px 15px;
 }
-.aboutBtnDiv button{
+.aboutBtnDiv .getBtn{
     color: #ffffff;
     background-color: orangered;
     border: none;
     border-radius: 25px;
     padding: 5px 15px;
 }
-.aboutBtnDiv button:hover{
+.aboutBtnDiv .getBtn:hover{
     color: #ffffff;
     background-color: #111146;
     border: none;

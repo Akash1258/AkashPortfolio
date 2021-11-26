@@ -19,7 +19,7 @@ export default function Contact() {
     }
     return (
         <div className='c' id="contact">
-            <div className="c-bg"></div>
+            {/* <div className="c-bg"></div> */}
             <div className="c-wrapper">
                 <div className="c-left">
                     <h1 className="c-title">Let's Meet</h1>
@@ -37,7 +37,7 @@ export default function Contact() {
                             Parsa Saran, Bihar
                         </div>
                         <div className="c-info-item socialmedia">
-                        <h1 className="c-icon"></h1>
+                        <h1 className="c-icon">{""}</h1>
                             <div className="colzs">
                                 <div className="colz-icons">
                                     <a href="http://www.linkedin.com/in/akash-kumar06"><FaLinkedin className='social-media-icon' /></a>
@@ -57,7 +57,7 @@ export default function Contact() {
                         <input type="text" placeholder="Subject" name="user_subject" />
                         <input type="text" placeholder="Email" name="user_email" />
                         <textarea name="message" placeholder="Message" rows="5"></textarea>
-                        <button>Submit</button>
+                        <button className="submitBtn">Submit</button>
                         {done && "Thank You"}
                     </form>
                 </div>

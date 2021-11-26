@@ -6,9 +6,10 @@
   row-gap: 100px;
 }
 
-/* html{
+ html{
   scroll-behavior: smooth;
 }
+
 #home{
   height: auto;
 }
@@ -44,4 +45,4 @@
   #contact{
     height: auto;
   }
-} */
+}
