@@ -3,7 +3,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  row-gap: 100px;
+  row-gap: 40px;
 }
 
  html{
@@ -27,7 +27,8 @@
 }
 
 .footer{
-color: #eee !important
+color: #eee !important;
+background-color: #757575 !important;
 }
 
 @media screen and (max-width:910px) {

@@ -6,7 +6,7 @@ import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 export default function AboutMe() {
     return (
         <div className='mainDiv' id="about" >
-            <h2 className="pageHeading">About Me</h2>
+            <h2 className="pageHeadingA">About Me</h2>
             <div className='containerDiv'>
 
                 <div className='aboutmeTextDiv'>

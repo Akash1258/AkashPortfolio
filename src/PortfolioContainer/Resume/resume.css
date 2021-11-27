@@ -1,5 +1,5 @@
 
-.pageHeading{
+.pageHeadings{
     font-size: 50px;
     font-weight: 600px;
 }
@@ -22,16 +22,27 @@
 .skillCard{
     width: 100px;
     height: 100px;
-    box-shadow: 2px 2px 2px 2px #ffffff;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    justify-content: space-between;
+    padding: 5px;
 
 }
 .skillCard img{
     width: 60%;
+}
+.skillCard2{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+}
+.skillCard2 img{
+    width: 100%;
 }
 .eduDiv{
     box-shadow: 0px 2px 8px 0px #0000001a;
@@ -100,10 +111,17 @@
         margin-bottom: -100px;
     }
     .mainDiv{
-        margin-top: -120px !important;
+        /* margin-top: -120px !important; */
     }
     .present{
         grid-gap: 2%;
+    }
+    .pageHeadings{
+        padding-top: 20px;
+    }
+    .skillcardMain{
+        display: grid;
+        grid-template-columns: 40% 40%;
     }
    
 }

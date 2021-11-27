@@ -2,13 +2,13 @@
     text-align: center;
     justify-content: center;
     min-height: fit-content;
-    background-color: #757575;
+    background-color: #2C272E;
     /* background-image: url('https://images.designtrends.com/wp-content/uploads/2015/11/30165909/Cute-Gray-Plain-Background.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
 }
  .myNav{
-   background-color: #757575;
+   background-color: #2C272E;
    border: none; 
    color: #ffffff;
    font-size: 14.5px;
@@ -34,7 +34,7 @@
    padding: 7px 7px;
    font-size: 14.5px;
    margin: 0px;
-   box-shadow: 0 1px 1px 1px #ffffff;
+   /* box-shadow: 0 1px 1px 1px #ffffff; */
 } 
 .menu-content:hover{
     color: #ffffff;
@@ -53,7 +53,7 @@
 .profile-parent{
     display: flex;
     align-items: center;
-    color: aliceblue;
+    color: whitesmoke;
 }
 .profile-details-name{
     font-size: 56px;
@@ -64,15 +64,19 @@
     flex-direction: column;
     margin: 14px 0px 24px 0px;
 }
-.profile-details-name h1{
-    font-size: 40px;
-
+.profile-details-name {
+    font-weight: bold;
+    font-size: 48px;
 }
 .primary-text{
-    color:#ffffff;
+    color:whitesmoke;
+    font-weight: bold;
 }
 .highlighted-text{
-    color: orangered;
+    color: #BD1616;
+    font-weight: bold;
+    font-size: 48px;
+
 }
 .profile-role-tagline{
     font-size: 19px;
@@ -96,7 +100,7 @@
  .getResumeBtn{
     padding: 10px 15px;
     margin: 0 0 0 28px;
-    background-color: orangered;
+    background-color: #BD1616;
     color: bisque;
 }
 .profile-option .getResumeBtn:hover{

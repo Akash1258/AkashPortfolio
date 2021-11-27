@@ -19,10 +19,12 @@
 .c-left
 {
     flex: 1;
+    margin-left: 4%;
 }
 .c-right{
     flex: 1;
     display: flex;
+    margin-right: 4%;
     align-items: center;
     flex-direction: column;
     justify-content:center ;

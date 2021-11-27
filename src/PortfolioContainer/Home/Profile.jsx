@@ -22,7 +22,7 @@ export default function Profile() {
                                         <Nav className="me-2 mx-auto  my-md-0 mr-md-3" >
                                         <Nav.Link href="#home"><p className="menu-content">HOME</p></Nav.Link>
                                         <Nav.Link href="#about"><p className="menu-content">ABOUT</p></Nav.Link>
-                                        <Nav.Link href="#resume"><p className="menu-content">RESUME</p></Nav.Link>
+                                        <Nav.Link href="#resume"><p className="menu-content">SKILLS</p></Nav.Link>
                                         <Nav.Link href="#project"><p className="menu-content">PROJECTS</p></Nav.Link>
                                         <Nav.Link href="#contact"><p className="menu-content">CONTACT</p></Nav.Link> 
                                         </Nav>
@@ -31,8 +31,8 @@ export default function Profile() {
                             </Navbar>
                         </div>
                     </div>
-                    <div className="row p-5" >
-                        <div className="profile-parent col-md-12 mt-0 mb-5 p-5 ">
+                    <div className="row p-5 " >
+                        <div className="profile-parent col-md-12 mt-0 mb-5 p-5">
                             <div className="profile-details">
                                 <div className="colz">
                                     <div className="colz-icon">
@@ -44,10 +44,10 @@ export default function Profile() {
                                 <div className="profile-details-name">
                                     <span className='primary-text'></span>
                                     {" "}
-                                    Hello, I'M <span className="highlighted-text">Akash Kumar</span>
+                                    Hello, I'm <span className="highlighted-text">Akash Kumar</span>
                                 </div>
                                 <div className="profile-details-role">
-                                    <span className='primary-text'>
+                                    <span className='primary'>
                                         {" "}
                                         <h1>
                                             {" "}

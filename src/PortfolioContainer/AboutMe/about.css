@@ -8,7 +8,7 @@
     box-shadow: 0px 2px 8px 0px #0000001a;
     grid-gap: 0%;
 }
-.pageHeading{
+.pageHeadingA{
     font-size: 50px;
     font-weight: 600;
 }
@@ -17,7 +17,7 @@
     height: 100%;
 }
 .aboutmeTextDiv{
-    padding: 25px;
+    /* padding: 25px; */
     text-align: left;
 }
 .aboutme{
@@ -82,9 +82,7 @@
         /* display: flex; */
         /* flex-direction: column; */
     }
-    .pageHeading{
-        padding-top: 20px;
-        }
+    
 }
 @media screen and (max-width:910px) {
     .containerDiv{
@@ -97,6 +95,9 @@
     .containerDiv img{
         height: 400px;
     }
+    .pageHeadingA{
+        padding-top: 20px;
+        }
 }
 @media screen and (max-width:810px) {
     .containerDiv img{
