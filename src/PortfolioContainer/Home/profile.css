@@ -177,6 +177,9 @@
         border: none; 
         padding: 0px !important;
      }
+     .profile-parent{
+         margin-top:-100px !important ;
+     }
    
 }
 @media screen and (max-width:810px) {
@@ -185,7 +188,7 @@
     }
     .profile-parent{
         flex-direction: column-reverse;
-        margin: 40px 0 0 0;
+        /* margin: 40px 0 0 0; */
     }
     .profile-option{
         display: flex;

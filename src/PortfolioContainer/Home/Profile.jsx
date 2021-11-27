@@ -32,7 +32,7 @@ export default function Profile() {
                         </div>
                     </div>
                     <div className="row p-5" >
-                        <div className="profile-parent col-md-12 mt-5 mb-5 p-5 ">
+                        <div className="profile-parent col-md-12 mt-0 mb-5 p-5 ">
                             <div className="profile-details">
                                 <div className="colz">
                                     <div className="colz-icon">

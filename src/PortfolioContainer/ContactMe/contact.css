@@ -107,7 +107,11 @@ textarea{
         display: flex;
         flex-direction: column;
     }
+    
+}
+@media screen and (max-width:375px) {
     .c-info-item{
-        width: 70%;
+        /* width: 80%; */
+        font-size: 12.5px;
     }
 }
