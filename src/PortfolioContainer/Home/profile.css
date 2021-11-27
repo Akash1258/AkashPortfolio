@@ -169,9 +169,10 @@
         width: 320px;
         margin: 0 0 0 4px;
     }
-    /* .btn .highlighted-btn{
-        margin-left: 40%;
-    } */
+    .getResumeBtn{
+        width: 150px;
+        margin-left: -5%;
+    }
     .navBar-bg{
         background-color: #757575;
         border: none; 

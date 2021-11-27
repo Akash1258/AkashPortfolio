@@ -16,7 +16,9 @@ function App() {
      <Resume/>
      <Project/>
      <Contact/>
-     <Card body>This is some text within a card body.</Card>
+     <Card body className="footer">© 2021 Akash Kumar
+
+</Card>
     </div>
     </>
   );
