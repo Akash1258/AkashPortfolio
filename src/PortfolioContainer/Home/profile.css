@@ -3,7 +3,6 @@
     justify-content: center;
     min-height: fit-content;
     background-color: #2C272E;
-    /* background-image: url('https://images.designtrends.com/wp-content/uploads/2015/11/30165909/Cute-Gray-Plain-Background.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -155,6 +154,9 @@
     .profile-details-name{
         font-size: 36px;
     }
+    .highlighted-text{
+        font-size: 36px;
+    }
     .profile-details-role .primary-text{
         font-size: 12px
     }
@@ -177,14 +179,24 @@
         width: 150px;
         margin-left: -5%;
     }
+    .profile-details-name{
+        font-size: 32px;
+    }
+    .highlighted-text{
+        width: 100%;
+        font-size: 32px;
+        padding-left:0px !important;
+        padding-right: 0px !important;
+    }
     .navBar-bg{
         background-color: #757575;
         border: none; 
         padding: 0px !important;
      }
-     .profile-parent{
+     /* .profile-picture{
+         padding-top: 0px !important;
          margin-top:-100px !important ;
-     }
+     } */
    
 }
 @media screen and (max-width:810px) {
@@ -193,14 +205,26 @@
     }
     .profile-parent{
         flex-direction: column-reverse;
-        /* margin: 40px 0 0 0; */
-    }
+        margin-top: -200px !important;
+        }
     .profile-option{
         display: flex;
         justify-content: center;
     }
     .profile-details{
         margin: 25px 0 0;
+    }
+    .profile-details-name{
+        font-size: 32px;
+    }
+    .highlighted-text{
+        width: 100%;
+        font-size: 32px;
+        padding-left:0px !important;
+        padding-right: 0px !important;
+    }
+    .typicalText{
+        font-size: 24px;
     }
     .profile-details-name, .profile-details-role{
         text-align: center;
@@ -225,4 +249,17 @@
         border: none; 
         padding: 0px !important;
      }
+     .profile-details-name{
+        font-size: 24px;
+    }
+    .highlighted-text{
+        width: 100%;
+        font-size: 24px;
+        padding-left:0px !important;
+        padding-right: 0px !important;
+    }
+    .typicalText{
+        font-size: 20px;
+    }
+  
 }

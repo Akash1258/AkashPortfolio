@@ -51,7 +51,7 @@ export default function Profile() {
                                         {" "}
                                         <h1>
                                             {" "}
-                                            <Typical
+                                            <Typical className="typicalText"
                                                 loop={Infinity}
                                                 steps={["Web Developer",
                                                     1000,
