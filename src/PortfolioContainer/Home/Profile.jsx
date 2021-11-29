@@ -17,7 +17,7 @@ export default function Profile() {
                             <Navbar  expand="lg"  className="myNav">
                                 <Container>
                                     <Navbar.Brand href="#home"><p style={{color:"#ffffff"}}>Akash Kumar</p></Navbar.Brand>
-                                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                                    <Navbar.Toggle aria-controls="basic-navbar-nav" style={{background:"whitesmoke"}} />
                                     <Navbar.Collapse id="basic-navbar-nav" >
                                         <Nav className="me-2 mx-auto  my-md-0 mr-md-3" >
                                         <Nav.Link href="#home"><p className="menu-content">HOME</p></Nav.Link>

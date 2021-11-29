@@ -30,7 +30,7 @@ export const Project = () => {
 
 
 
-                <div className="projectCardDiv">
+                <div className="projectCardDiv secProject">
                     <div className="projectDetail">
                         <h3>Worklyf</h3>
                         <p>Worklyf is designed to help employees make their WFH/Hybrid work journey beautiful, fruitful and delightful.</p>
@@ -46,8 +46,8 @@ export const Project = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="projectImg">
-                        <img src=".././images/worklyf.png" alt="" style={{ backgroundSize: "cover", height: "300px", width: "auto" }} />
+                    <div className="projectImg secProjectImg">
+                        <img src="https://user-images.githubusercontent.com/77065070/141605993-0099f02f-82d2-416e-a8de-6eab80f12ca9.png" alt="" />
                     </div>
                 </div>
             </div>
