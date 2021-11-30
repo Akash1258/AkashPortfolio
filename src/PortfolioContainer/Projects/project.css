@@ -81,6 +81,10 @@
     background-repeat: no-repeat;
     overflow: hidden;
 }
+.projectImg:hover{
+    transform:scale(1.07) ;
+    transition: 1s ease-out;
+}
 /* @media screen and (max-width:1020px) {
     .texttackDiv{
         display: grid;
