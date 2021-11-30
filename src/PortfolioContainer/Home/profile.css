@@ -193,10 +193,10 @@
         border: none; 
         padding: 0px !important;
      }
-     /* .profile-picture{
+     .profile-picture{
          padding-top: 0px !important;
          margin-top:-100px !important ;
-     } */
+     }
    
 }
 @media screen and (max-width:810px) {
