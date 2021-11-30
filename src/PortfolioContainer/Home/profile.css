@@ -205,7 +205,6 @@
     }
     .profile-parent{
         flex-direction: column-reverse;
-        margin-top: -200px !important;
         }
     .profile-option{
         display: flex;
@@ -239,7 +238,6 @@
     .profile-picture{
         height: 275px;
         width: 275px;
-        margin-top: -90px;
     }
     .profile-details{
         width: 90%;
