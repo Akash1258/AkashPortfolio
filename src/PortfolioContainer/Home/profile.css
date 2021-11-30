@@ -200,9 +200,9 @@
    
 }
 @media screen and (max-width:810px) {
-    .profile-picture{
+    /* .profile-picture{
         margin: 0 !important;
-    }
+    } */
     .profile-parent{
         flex-direction: column-reverse;
         }
