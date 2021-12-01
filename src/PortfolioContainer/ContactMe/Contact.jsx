@@ -41,7 +41,7 @@ export default function Contact() {
                             <div className="colzs">
                                 <div className="colz-icons">
                                     <a href="http://www.linkedin.com/in/akash-kumar06"><FaLinkedin className='social-media-icon' /></a>
-                                    <a href="https://github.com/Krakash06"><FaGithubSquare className='social-media-icon' /></a>
+                                    <a style={{marginLeft:"10px"}} href="https://github.com/Krakash06"><FaGithubSquare className='social-media-icon' /></a>
                                 </div>
                             </div>
                         </div>
