@@ -70,6 +70,9 @@
     height: 20px;
     margin: 0 !important;
 }
+.colz-icons .social-media-icon .secondicon{
+    margin-left: 20px !important;
+}
 .colz-icons ,.social-media-icon:hover{
     transform: scale(1.5);
 

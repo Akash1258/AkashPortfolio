@@ -61,7 +61,7 @@ export default function Profile() {
                                             />
                                         </h1>
                                         <span className='profile-role-tagline'>
-                                            Know of building application with front and back end operation
+                                        It's Nice To Meet You. I Design And Code Beautifully And I Love What I Do.
                                         </span>
                                     </span>
                                 </div>

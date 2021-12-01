@@ -106,6 +106,8 @@
     .skillDiv{
         display: flex;
         flex-direction: column;
+        /* text-align: left; */
+        align-items: center;
     }
     .educationQual{
         margin-bottom: -100px;

@@ -11,8 +11,8 @@ export default function AboutMe() {
 
                 <div className='aboutmeTextDiv'>
                     <p className="aboutme">
-                        I have diverse set of skills ranging from HTML CSS JavaScript
-                        React to ExpressJs MongoDb NodeJs</p>
+                        I have diverse set of skills ranging from HTML, CSS, JavaScript
+                        ReactJs to ExpressJs, MongoDB, NodeJs</p>
                     <ul>
                         <li>I have worked on several different projects solo as well as collaboratively</li>
                         <li>Passionate about implementing and launching new projects</li>
@@ -23,7 +23,7 @@ export default function AboutMe() {
                     <div className="colzs">
                         <div className="colz-icons">
                             <a href="http://www.linkedin.com/in/akash-kumar06"><FaLinkedin className='social-media-icon' /></a>
-                            <a href="https://github.com/Krakash06"><FaGithubSquare className='social-media-icon' /></a>
+                            <a style={{marginLeft:"10px"}} href="https://github.com/Krakash06"><FaGithubSquare className='social-media-icon' /></a>
                         </div>
                     </div>
                     <div className='aboutBtnDiv'>
