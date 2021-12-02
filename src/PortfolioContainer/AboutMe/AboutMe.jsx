@@ -22,8 +22,8 @@ export default function AboutMe() {
 
                     <div className="colzs">
                         <div className="colz-icons">
-                            <a href="http://www.linkedin.com/in/akash-kumar06"><FaLinkedin className='social-media-icon' /></a>
-                            <a style={{marginLeft:"10px"}} href="https://github.com/Krakash06"><FaGithubSquare className='social-media-icon' /></a>
+                            <a target="_blank" rel="noopener" href="http://www.linkedin.com/in/akash-kumar06"><FaLinkedin className='social-media-icon' /></a>
+                            <a target="_blank" rel="noopener" style={{marginLeft:"10px"}} href="https://github.com/Krakash06"><FaGithubSquare className='social-media-icon' /></a>
                         </div>
                     </div>
                     <div className='aboutBtnDiv'>

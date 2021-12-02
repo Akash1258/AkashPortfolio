@@ -36,8 +36,8 @@ export default function Profile() {
                             <div className="profile-details">
                                 <div className="colz">
                                     <div className="colz-icon">
-                                        <a href="http://www.linkedin.com/in/akash-kumar06"><FaLinkedin className='social-media-icon' /></a>
-                                        <a href="https://github.com/Krakash06"><FaGithubSquare className='social-media-icon' /></a>
+                                        <a target="_blank" rel="noopener" href="http://www.linkedin.com/in/akash-kumar06"><FaLinkedin className='social-media-icon' /></a>
+                                        <a target="_blank" rel="noopener" href="https://github.com/Krakash06"><FaGithubSquare className='social-media-icon' /></a>
                                     </div>
                                 </div>
 

@@ -12,8 +12,8 @@ export const Project = () => {
                         <p>Lybrate is an online
                             healthcare platform for any kind of medical assistance.</p>
                         <div className="links">
-                        <a href="https://github.com/abhishek-hero/lybrate_Clone"><FaGithubSquare className='social-media-icon' /></a>
-                        <a href="#"  style={{cursor:"not-allowed"}}><FaLink className='social-media-icon' /></a>
+                        <a target="_blank" rel="noopener" href="https://github.com/abhishek-hero/lybrate_Clone"><FaGithubSquare className='social-media-icon' /></a>
+                        <a href="#project"  style={{cursor:"not-allowed"}}><FaLink className='social-media-icon' /></a>
                         </div>
                         <div className="langDiv">
                             <p className="techstack">Tech Stack :</p>
@@ -38,8 +38,8 @@ export const Project = () => {
                         <h3>Worklyf</h3>
                         <p>Worklyf is designed to help employees make their WFH/Hybrid work journey beautiful, fruitful and delightful.</p>
                         <div className="links">
-                            <a href="https://github.com/shivamfw10/worklyf"><FaGithubSquare className='social-media-icon' /></a>
-                            <a href="https://worklyf.herokuapp.com/"><FaLink className='social-media-icon' /></a>
+                            <a target="_blank" rel="noopener" href="https://github.com/shivamfw10/worklyf"><FaGithubSquare className='social-media-icon' /></a>
+                            <a target="_blank" rel="noopener" href="https://worklyf.herokuapp.com/"><FaLink className='social-media-icon' /></a>
                         </div>
                         <div className="langDiv">
                             <p className="techstack">Tech Stack :</p>
