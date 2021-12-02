@@ -97,9 +97,18 @@ textarea{
     border-radius: 25px;
     cursor: pointer;
 }
+@media screen and (max-width:910px) {
+    .c-title{
+        padding-top: 20px;
+    }
+    .c{
+        margin-top: 40px;
+    }
+}
+
 @media screen and (max-width:810px) {
     .c{
-        margin-top: -150px !important;
+        margin-top: -100px !important;
         width: 80%;
         margin: auto;
         text-align: left;
