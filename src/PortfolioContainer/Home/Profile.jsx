@@ -2,7 +2,6 @@ import React from 'react'
 import Typical from 'react-typical'
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 import { Navbar, Container, Nav } from 'react-bootstrap';
-// import { Link } from 'react-scroll'
 import './profile.css'
 
 

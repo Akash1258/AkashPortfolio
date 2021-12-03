@@ -13,7 +13,7 @@ export const Project = () => {
                             healthcare platform for any kind of medical assistance.</p>
                         <div className="links">
                         <a target="_blank" rel="noopener" href="https://github.com/abhishek-hero/lybrate_Clone"><FaGithubSquare className='social-media-icon' /></a>
-                        <a href="#project"  style={{cursor:"not-allowed"}}><FaLink className='social-media-icon' /></a>
+                        <a target="_blank" href="https://lybrateclone01.herokuapp.com"><FaLink className='social-media-icon' /></a>
                         </div>
                         <div className="langDiv">
                             <p className="techstack">Tech Stack :</p>
