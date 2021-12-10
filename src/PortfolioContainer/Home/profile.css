@@ -2,7 +2,7 @@
     text-align: center;
     justify-content: center;
     min-height: fit-content;
-    background-color: #2C272E;
+    /* background-color: #2C272E; */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -11,6 +11,7 @@
    border: none; 
    color: #ffffff;
    font-size: 14.5px;
+   width: 100%;
 }
 /*.heading{
     color: #ffffff;
@@ -52,7 +53,7 @@
 .profile-parent{
     display: flex;
     align-items: center;
-    color: whitesmoke;
+    /* color: whitesmoke; */
 }
 .profile-details-name{
     font-size: 56px;

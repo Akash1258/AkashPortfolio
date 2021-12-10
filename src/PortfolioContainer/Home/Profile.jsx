@@ -8,13 +8,13 @@ import './profile.css'
 export default function Profile() {
     return (
         <>
-            <div className="row" >
+            <div className="row " >
                 <div className="profile-container col-md-12" id="home">
-                    <div className="row ">
-                        <div className="col-md-12">
+                    <div className="row  "  >
+                        <div className="col-md-12" style={{margin:"0px" ,padding :"0px"}} >
                             
-                            <Navbar  expand="lg"  className="myNav">
-                                <Container>
+                            <Navbar  expand="lg" className="myNav" >
+                                <Container fluid>
                                     <Navbar.Brand href="#home"><p style={{color:"#ffffff"}}>Akash Kumar</p></Navbar.Brand>
                                     <Navbar.Toggle aria-controls="basic-navbar-nav" style={{background:"whitesmoke"}} />
                                     <Navbar.Collapse id="basic-navbar-nav" >
@@ -35,8 +35,8 @@ export default function Profile() {
                             <div className="profile-details">
                                 <div className="colz">
                                     <div className="colz-icon">
-                                        <a target="_blank" rel="noopener" href="http://www.linkedin.com/in/akash-kumar06"><FaLinkedin className='social-media-icon' /></a>
-                                        <a target="_blank" rel="noopener" href="https://github.com/Krakash06"><FaGithubSquare className='social-media-icon' /></a>
+                                        <a target="_blank" rel="noopener noreferrer" href="http://www.linkedin.com/in/akash-kumar06"><FaLinkedin className='social-media-icon' /></a>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Krakash06"><FaGithubSquare className='social-media-icon' /></a>
                                     </div>
                                 </div>
 
@@ -53,9 +53,9 @@ export default function Profile() {
                                             <Typical className="typicalText"
                                                 loop={Infinity}
                                                 steps={["Web Developer",
-                                                    1000,
+                                                    2000,
                                                     "Problem Solver",
-                                                    1000,
+                                                    2000,
                                                 ]}
                                             />
                                         </h1>
