@@ -45,18 +45,17 @@
     padding: 5px 15px;
 }
 .aboutBtnDiv .getBtn{
+    padding: 10px 15px;
+    margin: 0 0 0 28px;
+    background-color: #FDDB34;
     color: #ffffff;
-    background-color: orangered;
+    font-weight: bold;
     border: none;
     border-radius: 25px;
-    padding: 5px 15px;
 }
 .aboutBtnDiv .getBtn:hover{
     color: #ffffff;
     background-color: #111146;
-    border: none;
-    border-radius: 25px;
-    padding: 5px 15px;
 }
 
 .colzs .colz-icons{
@@ -64,7 +63,7 @@
     align-items: center;
 }
 .colz-icons .social-media-icon{
-    color: #ffffff;
+    color: #52575D;
     justify-content: center;
     width: 20px;
     height: 20px;

@@ -18,12 +18,11 @@ function App() {
     <>
     <div className="App container-fluid"
            style={{
-            backgroundColor: darkMode ? "#2C272E" : "#bebebe",
+            backgroundColor: darkMode ? "#1F1301" : "#F6F4E6",
             color: darkMode && "whitesmoke",
           }}>
       <Toggle/>
      <Profile/>
-     <hr/>
      <AboutMe/>
      <Resume/>
      <Project/>

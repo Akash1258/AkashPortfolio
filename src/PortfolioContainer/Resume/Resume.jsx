@@ -1,6 +1,14 @@
 import React from 'react'
 import './resume.css'
-// import { FcGraduationCap } from "react-icons/fc";
+import htmlIcon from '../assets/htmlIcon.svg'
+import cssIcon from '../assets/cssIcon.svg'
+import jsIcon from '../assets/jsIcon.svg'
+import reactIcon from '../assets/reactIcon.svg'
+import expressIcon from '../assets/expressIcon.svg'
+import nodeIcon from '../assets/nodeIcon.svg'
+import mongoIcon from '../assets/mongoIcon.svg'
+
+
 
 export default function Resume() {
     return (
@@ -15,20 +23,20 @@ export default function Resume() {
                             <div className="skillcardMain">
                                 <div className="skillCard">
                                 <p style={{fontWeight:"bolder"}}>HTML</p>
-                                    <img style={{marginTop:"-17px"}} src="https://seeklogo.com/images/H/html5-without-wordmark-color-logo-14D252D878-seeklogo.com.png" alt="" />
+                                    <img style={{marginTop:"-17px"}} src={htmlIcon} alt="" />
                                 </div>
                                 <div className="skillCard">
                                 <p style={{fontWeight:"bolder"}}>CSS</p>
-                                    <img style={{marginTop:"-17px"}} src="https://camo.githubusercontent.com/24ef00f447fc6866cb7c411684fd39f0314be52472d4847547210ef51122311f/68747470733a2f2f63646e342e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f69636f6e73696d706c652d70726f6772616d6d696e672f3531322f6373732d3531322e706e67" alt="" />
+                                    <img style={{marginTop:"-17px"}} src={cssIcon} alt="" />
                                 </div>
 
                                 <div className="skillCard">
                                 <p style={{fontWeight:"bolder"}}>JavaScript</p>
-                                    <img style={{marginTop:"-17px"}} src="https://seeklogo.com/images/J/javascript-logo-8892AEFCAC-seeklogo.com.png" alt="" />
+                                    <img style={{marginTop:"-10px",width:"90%"}} src={jsIcon} alt="" />
                                 </div>
                                 <div className="skillCard">
                                     <p style={{fontWeight:"bolder"}}>REACT</p>
-                                    <img style={{marginTop:"-17px"}} src="https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png" alt="" />
+                                    <img style={{marginTop:"-10px",width:"90%"}} src={reactIcon} alt="" />
                                 </div>
                             </div>
 
@@ -39,14 +47,15 @@ export default function Resume() {
                             <div className="skillcardMain">
                                 <div className="skillCard2">
                                 <p style={{fontWeight:"bolder"}}>ExpressJs</p>
-                                    <img style={{marginTop:"-28px"}} src="https://fd-development.com/images/expressjs.png" alt="" />
+                                    <img style={{marginTop:"-17px"}} src={expressIcon} alt="" />
                                 </div>
                                 <div className="skillCard2">
-                                    <img src="https://devstickers.com/assets/img/pro/g1nl.png" alt="" />
+                                <p style={{fontWeight:"bolder"}}>NodeJs</p>
+                                    <img style={{marginTop:"-17px"}} src={nodeIcon} alt="" />
                                 </div>
                                 <div className="skillCard2">
                                 <p style={{fontWeight:"bolder"}}>MongoDB</p>
-                                    <img  src="https://seeklogo.com/images/M/mongodb-logo-427DDF8FDE-seeklogo.com.png" alt="" />
+                                    <img style={{marginTop:"-17px"}} src={mongoIcon} alt="" />
                                 </div>
                             </div>
                         </div>

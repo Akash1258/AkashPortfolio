@@ -73,7 +73,7 @@
     font-weight: bold;
 }
 .highlighted-text{
-    color: #BD1616;
+    color: #FDDB34;
     font-weight: bold;
     font-size: 48px;
 
@@ -100,12 +100,13 @@
  .getResumeBtn{
     padding: 10px 15px;
     margin: 0 0 0 28px;
-    background-color: #BD1616;
-    color: bisque;
+    background-color: #FDDB34;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
 }
-.profile-option .getResumeBtn:hover{
-    /* padding: 10px px; */
-    margin: 0 0 0 28px;
+ .getResumeBtn:hover{
     background-color: #111146;
     color: #ffffff;
 }
@@ -113,7 +114,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 1px 0px 0px #ffffff;
+    box-shadow: 0 1px 0px 0px #52575D;
     border-radius: 50%;
     height: 380px;
     width: 380px;
@@ -140,7 +141,7 @@
     padding-left: 0px;
 }
 .social-media-icon{
-    color: #ffffff;
+    color: #52575D;
     width: 30px;
     height: 30px;
     margin-left: 3%;

@@ -79,6 +79,7 @@ export default function Profile() {
                         </div>
                     </div>
                 </div>
+                <hr />
             </div>
         </>
     );
