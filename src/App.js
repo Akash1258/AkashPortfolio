@@ -17,7 +17,7 @@ function App() {
     <>
       <div className="App container-fluid"
         style={{
-          backgroundColor: darkMode ? "#1F1301" : "#F6F4E6",
+          backgroundColor: darkMode ? "#1F1301" : "#f3f2ef",
           color: darkMode && "whitesmoke",
         }}>
         <Toggle />
