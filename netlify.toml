@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"  # Specify your build command
+  publish = "dist"  # The directory where your build output is placed
+  functions = "functions"  # If you have serverless functions
+
+[context.production.environment]
+  NODE_VERSION = "16"  # Specify the Node.js version you're using for SSR
