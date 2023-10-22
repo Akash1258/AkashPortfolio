@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"  # Specify your build command
-  publish = "dist"  # The directory where your build output is placed
+  publish = "build"  # The directory where your build output is placed
   functions = "functions"  # If you have serverless functions
 
 [context.production.environment]
