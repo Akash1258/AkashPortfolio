@@ -1,4 +1,5 @@
 import "./project.css"
+import React from "react";
 import { FaGithubSquare, FaLink } from "react-icons/fa";
 
 export const Project = () => {
