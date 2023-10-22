@@ -1,3 +1,4 @@
+import React from "react";
 import "./toggle.css";
 import Sun from "../img/sun.png";
 import Moon from "../img/moon.png";
@@ -12,14 +13,16 @@ const Toggle = () => {
   };
   return (
     <div className="t">
-     <div>
-     <img src={Sun} alt="" className="t-icon" />
-      <img src={Moon} alt="" className="t-icon" />
-     </div>
+      <div>
+        <img src={Sun} alt="" className="t-icon" />
+        <img src={Moon} alt="" className="t-icon" />
+      </div>
       <div
         className="t-button"
         onClick={handleClick}
-        style={{ top: theme.state.darkMode ? 0 : 25 }}
+        style={{
+          top: typeof window !== "undefined" && theme.state.darkMode ? 0 : 25,
+        }}
       ></div>
     </div>
   );
