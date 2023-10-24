@@ -6,5 +6,10 @@
 [context.deploy-preview]
   command = "node server/index.js"
 
+[dev]
+port = 8000
+command = "yarn start"
+targetPort = 3000  
+
 [context.production.environment]
   NODE_VERSION = "16"  # Specify the Node.js version you're using for SSR
